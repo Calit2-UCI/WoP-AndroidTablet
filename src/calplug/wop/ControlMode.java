@@ -64,7 +64,7 @@ public class ControlMode extends Activity {
 	    //
 	    monitorView = (WebView) findViewById(R.id.monitor);
 	    monitorView.getSettings().setJavaScriptEnabled(true);
-	    monitorView.loadUrl("http://128.195.185.149/WOP_LastVersion/Projector.php");
+	    monitorView.loadUrl("http://128.195.185.149/WOP_LastVersion/Projector_zhimin.php");
 	    //monitorView.loadUrl("http://wallofpower.calplug.uci.edu/WOP_V4.1_ICCE/Projector.php");
 	    monitorView.setWebChromeClient(new WebChromeClient());
 	    monitorView.addJavascriptInterface(new DemoJavaScriptInterface(), "stats");

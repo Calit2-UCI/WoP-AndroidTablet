@@ -15,6 +15,7 @@
         android:ems="10"
         android:hint="Username"
         android:inputType="textNoSuggestions"
+        android:text="calplug@calplug.org"
         android:textColorHint="#006400" >
 
         <requestFocus />
@@ -29,6 +30,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:text="CalPlug14"
         android:textColorHint="#006400" />
 
     <Button
