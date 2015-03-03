@@ -90,7 +90,7 @@ public class Main extends Activity {
 				String response = null; 
 				
 				try {  
-					response = CustomHttpClient.executeHttpPost("http://128.195.185.149/WOP_LastVersion/check1.php", postParameters);  
+					response = CustomHttpClient.executeHttpPost("http://128.195.185.104:8080/WallOfPower4AndroidAPP/check1.php", postParameters);  
 					String res=response.toString();
 					
 					//Toast.makeText(Main.this, "                      md5=" + res , Toast.LENGTH_SHORT).show();  

@@ -84,15 +84,8 @@ public class Register extends Activity {
 				try {  
 					Toast.makeText(Register.this,password.getText().toString() , Toast.LENGTH_SHORT).show();
 					
-					response = CustomHttpClient.executeHttpPost("http://128.195.185.149/WOP_LastVersion/sign_up_action.php", postParameters);  //Enetr Your remote PHP,ASP, Servlet file link  
+					response = CustomHttpClient.executeHttpPost("http://128.195.185.104:8080/WallOfPower4AndroidAPP/sign_up_action.php", postParameters);  //Enetr Your remote PHP,ASP, Servlet file link  
 					String res=response.toString();  
-					
-					
-					//Toast.makeText(Register.this, "                      res=" + res , Toast.LENGTH_SHORT).show();  
-		              
-					
-					
-					
 					// res = res.trim();  
 					res= res.replaceAll("\\s+","");  
 					//error.setText(res);  
@@ -101,9 +94,7 @@ public class Register extends Activity {
 						Toast.makeText(Register.this,"Request submitted." , Toast.LENGTH_SHORT).show();
 						System.out.println("Request submitted.");  
 						Intent intent = new Intent(context, Main.class);
-						startActivity(intent); 
-						
-						}
+						startActivity(intent); }
 					
 					if(res.equals("0"))  
 					{  

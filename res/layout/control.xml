@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Layout1"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:background="@drawable/background"
     android:gravity="center"
     android:keepScreenOn="true"
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="26dp"
-            android:text="Virtual TV"
+            android:text="Set-top Box"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#ffffff"
             android:textSize="19sp" />
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="26dp"
-            android:text="Virtual STB"
+            android:text="Game Console"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#ffffff"
             android:textSize="19sp" />
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="26dp"
-            android:text="Virtual Laptop"
+            android:text="BlueRay Player"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#ffffff"
             android:textSize="19sp" />
@@ -92,6 +92,14 @@
             android:hardwareAccelerated="true" />
     </RelativeLayout>
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/largelogo" />
+
     <LinearLayout
         android:id="@+id/Switches"
         android:layout_width="190dp"
@@ -101,7 +109,7 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="26dp"
@@ -118,7 +126,7 @@
             android:layout_marginLeft="25dp" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="26dp"
@@ -135,7 +143,7 @@
             android:layout_marginLeft="25dp" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="26dp"
@@ -170,11 +178,10 @@
 
     <WebView
         android:id="@+id/monitor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="1350dp"
+        android:layout_height="565dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/switchLabel"
         android:alpha="0.8"
         android:hardwareAccelerated="true" />
 
@@ -189,14 +196,5 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#ffffff"
         android:textSize="19sp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="500dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/RelativeLayout1"
-        android:layout_marginRight="125dp"
-        android:src="@drawable/largelogo" />
 
 </RelativeLayout>

@@ -64,8 +64,7 @@ public class ControlMode extends Activity {
 	    //
 	    monitorView = (WebView) findViewById(R.id.monitor);
 	    monitorView.getSettings().setJavaScriptEnabled(true);
-	    monitorView.loadUrl("http://128.195.185.149/WOP_LastVersion/Projector.php");
-	    //monitorView.loadUrl("http://wallofpower.calplug.uci.edu/WOP_V4.1_ICCE/Projector.php");
+	    monitorView.loadUrl("http://wallofpower.calplug.uci.edu/WOP_V4.1_ICCE/Projector.php");
 	    monitorView.setWebChromeClient(new WebChromeClient());
 	    monitorView.addJavascriptInterface(new DemoJavaScriptInterface(), "stats");
 		WebSettings monitorSettings = monitorView.getSettings(); 
@@ -94,7 +93,7 @@ public class ControlMode extends Activity {
         Switch vlaptop_switch = (Switch) findViewById(R.id.vlaptop_switch);
         Switch lamp_switch = (Switch) findViewById(R.id.lamp_switch);
         Switch speaker_switch = (Switch) findViewById(R.id.speaker_switch);
-        onCreateCheck(tv_switch, speaker_switch, lamp_switch);
+        //onCreateCheck(tv_switch, speaker_switch, lamp_switch);
         
         // Set webview visibility
         //
@@ -103,7 +102,7 @@ public class ControlMode extends Activity {
         mainScreen.setVisibility(View.VISIBLE);
         switchLayout1.setVisibility(View.VISIBLE);
         switchLayout2.setVisibility(View.VISIBLE);
-        handler.postDelayed(runnable,1200);
+        handler.postDelayed(runnable,1000);
 		
         // Update meter every 5 seconds
         //
@@ -119,21 +118,21 @@ public class ControlMode extends Activity {
         				try {  
         					// TV
         					//
-        					response1 = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=2");  
+        					response1 = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=2");  
         					String res1=response1.toString();
         					res1= res1.replaceAll("\\s+","");  
         					PD1 = Integer.parseInt(res1);
         					
         					// Lamp
         					//
-        					response2 = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=3");  
+        					response2 = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=3");  
         					String res2=response2.toString();
         					res2= res2.replaceAll("\\s+","");  
         					PD2 = Integer.parseInt(res2);
         					
         					// Speaker
         					//
-        					response3 = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=16");  
+        					response3 = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=16");  
         					String res3=response3.toString();
         					res3= res3.replaceAll("\\s+","");  
         					PD3 = Integer.parseInt(res3);
@@ -165,7 +164,7 @@ public class ControlMode extends Activity {
 						//Resources resources = getResources();
 						//Drawable tv_on = resources.getDrawable(R.drawable.tvon);//change drag&drop button's image
 						//TV.setCompoundDrawablesWithIntrinsicBounds(null, tv_on, null, null);
-						res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=10");
+						res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=10");
 						stats.loadUrl("javascript:setVTV("+VTV+")");
 					}catch (Exception e){
 						System.out.println(e.toString()+res);
@@ -178,7 +177,7 @@ public class ControlMode extends Activity {
 						//Resources resources = getResources();
 						//Drawable tv_on = resources.getDrawable(R.drawable.tvoff);//change drag&drop button's image
 						//TV.setCompoundDrawablesWithIntrinsicBounds(null, tv_on, null, null);
-						res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=11");
+						res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=11");
 					}catch (Exception e){
 						System.out.println(e.toString());
 					}
@@ -198,7 +197,7 @@ public class ControlMode extends Activity {
                 	   //
                 	   try{
                 		   stats.loadUrl("javascript:setVSTB("+VSTB+")");
-                		   res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=12");
+                		   res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=12");
                 	   }catch (Exception e){
                 		   System.out.println(e.toString());
                 	   }
@@ -207,7 +206,7 @@ public class ControlMode extends Activity {
                 	   //
                 	   try{
                 		   stats.loadUrl("javascript:setVSTB(0)");
-                		   res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=13");
+                		   res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=13");
                 	   }catch (Exception e){
                 		   System.out.println(e.toString()+res);
                 	   }
@@ -231,7 +230,7 @@ public class ControlMode extends Activity {
 						//Resources resources = getResources();
 						//Drawable laptop_on = resources.getDrawable(R.drawable.laptopon);//change drag&drop button's image
 						//Laptop.setCompoundDrawablesWithIntrinsicBounds(null, laptop_on, null, null);
-						res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=14");
+						res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=14");
 					}catch (Exception e){
 						System.out.println(e.toString());
 					}
@@ -243,7 +242,7 @@ public class ControlMode extends Activity {
 						//Resources resources = getResources();
 						//Drawable laptop_off = resources.getDrawable(R.drawable.laptopoff);//change drag&drop button's image
 						//Laptop.setCompoundDrawablesWithIntrinsicBounds(null, laptop_off, null, null);
-						res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=15");
+						res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=15");
 					}catch (Exception e){
 						System.out.println(e.toString()+res);
 					}
@@ -265,7 +264,7 @@ public class ControlMode extends Activity {
 					// turn TV on
 					//
 					try{
-						res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/control.php?q=5");
+						res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/control.php?q=5");
 					}catch (Exception e){
 						System.out.println(e.toString());
 					}
@@ -273,7 +272,7 @@ public class ControlMode extends Activity {
 					// turn TV off
 					//
 					try{
-						res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/control.php?q=6");
+						res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/control.php?q=6");
 					}catch (Exception e){
 						System.out.println(e.toString()+res);
 					}
@@ -295,7 +294,7 @@ public class ControlMode extends Activity {
         		 //turn lamp on
         		 //
         		 try{
-        			 res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/control.php?q=1");  
+        			 res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/control.php?q=1");  
         			 System.out.println(res);
         		 }catch (Exception e){
         			 System.out.println(e.toString());
@@ -304,7 +303,7 @@ public class ControlMode extends Activity {
         		 //turn lamp off
         		 //
         		 try{
-        			 res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/control.php?q=2");
+        			 res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/control.php?q=2");
         			 System.out.println(res);
         		 }catch (Exception e){
         			 System.out.println(e.toString());
@@ -327,7 +326,7 @@ public class ControlMode extends Activity {
 					//turn speaker on
 					//
 					try{
-						res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/control.php?q=3");
+						res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/control.php?q=3");
 					}catch (Exception e){
 						System.out.println(e.toString());
 					}
@@ -335,7 +334,7 @@ public class ControlMode extends Activity {
 					//turn speaker off
 					//
 					try{
-						res = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/control.php?q=4");
+						res = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/control.php?q=4");
 					}catch (Exception e){
 						System.out.println(e.toString()+res);
 					}
@@ -371,7 +370,7 @@ public class ControlMode extends Activity {
 	            	 mainScreen.setVisibility(View.VISIBLE);
 	            	 switchLayout1.setVisibility(View.VISIBLE);
 	            	 switchLayout2.setVisibility(View.VISIBLE);
-	            	 handler.postDelayed(runnable,1200);
+	            	 handler.postDelayed(runnable,1000);
 	            	 switchText.setText("Realtime View");
 	             }
 	         }
@@ -391,7 +390,7 @@ public class ControlMode extends Activity {
     	// TV 90-94 watt
     	//
     	try {
-    		TVSta = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=2");
+    		TVSta = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=2");
     	} catch (Exception e) {
     		// TODO Auto-generated catch block
     		e.printStackTrace();
@@ -407,7 +406,7 @@ public class ControlMode extends Activity {
     	// lamp 61 watt
     	//
     	try {
-    		laptopSta = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=3");
+    		laptopSta = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=3");
     	} catch (Exception e) {
     		// TODO Auto-generated catch block
     		e.printStackTrace();
@@ -422,7 +421,7 @@ public class ControlMode extends Activity {
 			
     	// speaker 10 watt
     	try {
-    		speakerSta = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/power.php?q=16");
+    		speakerSta = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/power.php?q=16");
     	} catch (Exception e) {
     		// TODO Auto-generated catch block
     		e.printStackTrace();
@@ -474,10 +473,11 @@ public class ControlMode extends Activity {
 private Handler handler = new Handler();
 
 // refresh IP camera
+//
 private Runnable runnable = new Runnable() {
 	public void run () {
 		mainScreen.loadUrl("http://128.200.55.92:82/axis-cgi/jpg/image.cgi?camera=1&resolution=1280x720");
-		handler.postDelayed(this,1200); 
+		handler.postDelayed(this,1000); 
 	}
 };
 

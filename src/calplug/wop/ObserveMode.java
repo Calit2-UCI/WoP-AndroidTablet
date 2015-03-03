@@ -68,7 +68,7 @@ public class ObserveMode extends Activity {
                	//layoutParams.addRule(RelativeLayout.CENTER_HORIZONTAL);
                	stats = new WebView(this);
                    stats.setLayoutParams(layoutParams);
-           		stats.loadUrl("http://128.195.185.149/WOP_LastVersion/androidob.html");
+           		stats.loadUrl("http://128.195.185.104:8080/WOP_LastVersion/androidob.html");
         		stats.setWebChromeClient(new WebChromeClient());
                 stats.addJavascriptInterface(new DemoJavaScriptInterface(), "stats");
                    WebSettings websetting = stats.getSettings();
@@ -99,7 +99,7 @@ public class ObserveMode extends Activity {
     			public void onClick(View arg0) {
     				String response=null;
     				try {  
-    					response = CustomHttpClient.executeHttpGet("http://128.195.185.149/WOP_LastVersion/androidlogout.php");  
+    					response = CustomHttpClient.executeHttpGet("http://128.195.185.104:8080/WOP_LastVersion/androidlogout.php");  
     				
     			}catch (Exception e) {  
     					  
