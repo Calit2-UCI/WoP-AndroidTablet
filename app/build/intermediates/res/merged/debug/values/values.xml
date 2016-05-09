@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="marginLeft">20</integer>
+    <string name="app_name">Wall of Power</string>
+    <string name="camera_Img">http://128.200.55.92:82/axis-cgi/jpg/image.cgi?camera=1&amp;resolution=1280x720</string>
+    <string name="camera_s">http://root:admin@128.200.55.90:82/axis-cgi/mjpg/video.cgi?resolution=640x480</string>
+    <string name="control_base">http://wop.calplug.uci.edu/WOP_LastVersion/control.php?</string>
+    <string name="drag">drag</string>
+    <string name="getPower_base">http://wop.calplug.uci.edu/WOP_LastVersion/power.php?</string>
+    <string name="hello">Wall of Power</string>
+    <string name="login_s">http://wop.calplug.uci.edu/WOP_LastVersion/check1.php</string>
+    <string name="logout_s">http://wop.calplug.uci.edu/WOP_LastVersion/androidlogout.php</string>
+    <string name="monitor_s">http://wop.calplug.uci.edu/WOP_LastVersion/Projector.php</string>
+    <string name="register_s">http://wop.calplug.uci.edu/WOP_LastVersion/sign_up_action.php</string>
+    <string name="stats_s">http://wop.calplug.uci.edu/WOP_LastVersion/androidob.html</string>
+</resources>

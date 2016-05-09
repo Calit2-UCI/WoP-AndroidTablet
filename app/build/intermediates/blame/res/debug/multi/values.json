@@ -1,0 +1,170 @@
+[
+    {
+        "outputFile": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/value.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 50,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/value.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 118,
+                    "endOffset": 264
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 269,
+                    "endColumn": 114,
+                    "endOffset": 379
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 384,
+                    "endColumn": 96,
+                    "endOffset": 476
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 481,
+                    "endColumn": 37,
+                    "endOffset": 514
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/value.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 519,
+                    "endColumn": 95,
+                    "endOffset": 610
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 615,
+                    "endColumn": 47,
+                    "endOffset": 658
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/value.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 663,
+                    "endColumn": 89,
+                    "endOffset": 748
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 753,
+                    "endColumn": 97,
+                    "endOffset": 846
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 851,
+                    "endColumn": 94,
+                    "endOffset": 941
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 865,
+                        "endColumn": 94,
+                        "endOffset": 955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 946,
+                    "endColumn": 100,
+                    "endOffset": 1042
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1047,
+                    "endColumn": 93,
+                    "endOffset": 1136
+                },
+                "from": {
+                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                }
+            }
+        ]
+    }
+]

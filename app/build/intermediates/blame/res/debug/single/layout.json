@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/layout/register.xml",
+        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/layout/register.xml"
+    },
+    {
+        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/layout/control.xml",
+        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/layout/control.xml"
+    }
+]

@@ -1,0 +1,67 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 
+		<script language="javascript" type="text/javascript" src="js/jgauge-0.3.0.a3.js"></script> 
+  		<script language="javascript" type="text/javascript" src="js/jquery.flot.js"></script>
+		<script language="javascript" type="text/javascript" src="js/jQueryRotate.min.js"></script>
+		<script language="javascript" type="text/javascript" src="js/jquery.flot.stack.js"></script>
+<script type="text/javascript">
+
+$(function () {
+
+    var data = [], totalPoints = 300;
+    var data2 = [];
+	var y = 0;
+
+	var tmin, tmax;
+
+	
+    function getData() {
+		if (data.length > 0)
+            data = data.slice(1);
+			
+        // do a random walk
+
+				PD_all=y;
+        all = 100;
+        while (data.length < totalPoints) {
+			data.push(all);
+        }
+		
+        // zip the generated y values with the x values
+        var res = [];
+    for(var m = 0; m <= data.length; m++)
+        data2 [m] = data[data.length-m-1];
+		for (var i = 0; i <= data.length; ++i)		
+        res.push([i, data2[i]]);
+		return res;
+    }
+
+    // setup control widget
+    var updateInterval = 50;
+    
+    // setup plot
+    var options = {
+		series: { label: "Total Power (W)", shadowSize: 0, color: '#3ADF00', lines: { show: true, fill: true }},
+        yaxis: { min: 0, max: 300 },
+        xaxis: { show: false},
+
+    };
+    var plot = $.plot($("#placeholder_4"), [ getData() ], options);
+
+    function update() {
+        plot.setData([ getData() ]);
+        // since the axes don't change, we don't need to call plot.setupGrid()
+        plot.draw();
+        
+        setTimeout(update, updateInterval);
+		
+    }
+	update();
+	
+});
+</script>
+</head>
+<div id="placeholder_4" style="width:450px;height:400px;"  align="right"></div>
+
+</html>

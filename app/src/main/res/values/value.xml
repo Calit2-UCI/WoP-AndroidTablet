@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Wall of Power</string>
+    <string name="app_name">Wall of Power</string>
+    <string name="drag">drag</string>
+    <integer name="marginLeft">20</integer>
+</resources>
