@@ -1,0 +1,185 @@
+<!DOCTYPE>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <!--script language="javascript" type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 
+		<script language="javascript" type="text/javascript" src="js/jgauge-0.3.0.a3.js"></script> 
+  		<script language="javascript" type="text/javascript" src="js/jquery.flot.js"></script>
+		<script language="javascript" type="text/javascript" src="js/jQueryRotate.min.js"></script>
+		<script language="javascript" type="text/javascript" src="js/jquery.flot.stack.js"></script-->
+<title>Wall Of Power</title>
+
+<script src="js/raphael.2.1.0.min.js"></script>
+<script src="js/justgage.1.0.1.min.js"></script>
+
+<style type="text/css">
+<!--
+#g1,#g2,#g3,#g4,#g5,#g6 {
+        width:116px; height:80px;
+        display: inline-block;
+	}
+#total {
+	width:300px; height: 200px;
+	display: inline-block;
+}
+-->
+</style>
+</head>
+<body onLoad="javascript:init()" bgcolor="#000000" >
+<script language="javascript" type="text/javascript">
+var VD1,VD2,VD3,PD1,PD2,PD3,all,value;
+VD1 = 55;
+VD2 = 7;
+VD3 = 15;
+PD1 = 0;
+PD2 = 0;
+PD3 = 0;
+value = 0;
+all = 0;
+
+function updateValue(num1,num2,num3,num4){
+	PD1 = num1;
+	PD2 = num2;
+	PD3 = num3;
+	all = num4;
+}
+
+function init(){
+		var g1 = new JustGage({
+          id: "g1",
+		  label:"Watt",
+          value: VD1, 
+          min: 0,
+          max: 100,
+		  titleFontColor:"#ffffff",
+          valueFontColor:"#ffffff",
+		  title: "Virtual TV",
+		  showMinMax: false,   
+          shadowOpacity: 1,
+          shadowSize: 0,
+          shadowVerticalOffset: 5,   
+		});
+	    
+		var g2 = new JustGage({
+          id: "g2",
+		  label:"Watt",
+          value: VD2, 
+          min: 0,
+          max: 100,
+          title: "Virtual STB",
+		  titleFontColor:"#ffffff",
+          valueFontColor:"#ffffff",
+          shadowOpacity: 1,
+          shadowSize: 0,
+          shadowVerticalOffset: 5,
+		  showMinMax: false,  
+        });
+        
+        var g3 = new JustGage({
+          id: "g3",
+		  label:"Watt",
+          value: VD3, 
+          min: 0,
+          max: 100,
+		  titleFontColor:"#ffffff",
+          valueFontColor:"#ffffff",
+          title: "Virtual Laptop",
+          showMinMax: false, 
+          shadowOpacity: 1,
+          shadowSize: 0,
+          shadowVerticalOffset: 5,		  
+        }); 
+		    var g4 = new JustGage({
+          id: "g4",
+		  label:"Watt",
+          value: 0, 
+          min: 0,
+          max: 100,
+          title: "TV",
+		  titleFontColor:"#ffffff",
+          valueFontColor:"#ffffff",
+          showMinMax: false, 
+		  shadowOpacity: 1,
+          shadowSize: 0,
+          shadowVerticalOffset: 5,     
+        });
+		    var g5 = new JustGage({
+          id: "g5",
+		  label:"Watt",
+          value: 0, 
+          min: 0,
+          max: 100,
+          title: "Lamp",
+		  titleFontColor:"#ffffff",
+          valueFontColor:"#ffffff",
+          showMinMax: false,  
+		   shadowOpacity: 1,
+          shadowSize: 0,
+          shadowVerticalOffset: 5,   
+        });
+		    var g6 = new JustGage({
+          id: "g6",
+		  label:"Watt",
+          value: 0, 
+          min: 0,
+          max: 100,
+          title: "Laptop",
+		  titleFontColor:"#ffffff",
+          valueFontColor:"#ffffff",
+          showMinMax: false,        
+          shadowOpacity: 1,
+          shadowSize: 0,
+          shadowVerticalOffset: 5,
+		});
+			var total = new JustGage({
+          id: "total",
+		  label:"Watt",
+          value: 0, 
+          min: 0,
+          max: 250,
+          title: "Total Watt",
+		  titleFontColor:"#ffffff",
+          valueFontColor:"#ffffff",
+          showMinMax: true,        
+          shadowOpacity: 1,
+          shadowSize: 0,
+          shadowVerticalOffset: 5,
+		});
+		  //window.stats.refreshTimer1();
+		  //window.stats.refreshTimer2();
+		  //window.stats.refreshTimer3();
+		  //window.stats.refreshTimerAll();
+		  setInterval(function() {
+          //window.stats.clickOnAndroid();
+		  //window.stats.clickOnAndroid();
+		  //PD1 = Math.floor((Math.random()*50)+1);
+		  g4.refresh(PD1);
+          g5.refresh(PD2);
+		  g6.refresh(PD3);
+		  total.refresh(value);
+		  value = all + VD1 + VD2 + VD3;
+        }, 2500);
+		}
+
+</script>
+  <table width="380px" height="180px" >
+    <tr align="center">
+      <td><div id='g1' ></div></td>
+      <td><div id='g2' ></div></td>
+      <td><div id='g3'></div></td>
+    </tr>
+    <tr align="center">
+      <td><div id='g4'></div></td>
+      <td><div id='g5'></div></td>
+      <td><div id='g6'></div></td>
+    </tr>
+	
+  </table>
+  <!--div id="placeholder_4" style="width:300px;height:400px;"  align="right"></div-->
+<table width="380" height="200">
+<tr>
+<td><div id='total'></td>
+</tr>
+</table>
+</body>
+</html>
