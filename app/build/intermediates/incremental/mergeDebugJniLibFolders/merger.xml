@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\src\debug\jniLibs"/></dataSet></merger>

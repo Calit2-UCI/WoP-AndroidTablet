@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d43423897c593693d1588cdcd93297d6785cae7d">
+        <dex dex="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\build\intermediates\pre-dexed\debug\instant-run_11ed8585dba16732140c277a453a3dd2066c872f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de073e508a4199e0f543ada34a607f603e74671a">
+        <dex dex="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_d1c5d22bb00c50127f84e8c071f345ef6540b474.jar" />
+    </item>
+
+</items>

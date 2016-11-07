@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 94
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/value.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\value.xml"
                 }
             },
             {
@@ -23,7 +23,7 @@
                     "endOffset": 145
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/value.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\value.xml"
                 }
             },
             {
@@ -35,7 +35,7 @@
                     "endOffset": 264
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml"
                 }
             },
             {
@@ -47,7 +47,7 @@
                     "endOffset": 379
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml"
                 }
             },
             {
@@ -55,89 +55,103 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 384,
-                    "endColumn": 96,
-                    "endOffset": 476
+                    "endColumn": 103,
+                    "endOffset": 483
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 784,
+                        "endColumn": 103,
+                        "endOffset": 883
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 481,
+                    "startOffset": 488,
                     "endColumn": 37,
-                    "endOffset": 514
+                    "endOffset": 521
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/value.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\value.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 519,
-                    "endColumn": 95,
-                    "endOffset": 610
+                    "startOffset": 526,
+                    "endColumn": 102,
+                    "endOffset": 624
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 102,
+                        "endOffset": 778
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 615,
+                    "startOffset": 629,
                     "endColumn": 47,
-                    "endOffset": 658
+                    "endOffset": 672
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/value.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\value.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 663,
+                    "startOffset": 677,
                     "endColumn": 89,
-                    "endOffset": 748
+                    "endOffset": 762
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 753,
+                    "startOffset": 767,
                     "endColumn": 97,
-                    "endOffset": 846
+                    "endOffset": 860
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 851,
-                    "endColumn": 94,
-                    "endOffset": 941
+                    "startOffset": 865,
+                    "endColumn": 101,
+                    "endOffset": 962
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml",
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 865,
-                        "endColumn": 94,
-                        "endOffset": 955
+                        "startOffset": 889,
+                        "endColumn": 101,
+                        "endOffset": 986
                     }
                 }
             },
@@ -145,24 +159,24 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 946,
+                    "startOffset": 967,
                     "endColumn": 100,
-                    "endOffset": 1042
+                    "endOffset": 1063
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1047,
+                    "startOffset": 1068,
                     "endColumn": 93,
-                    "endOffset": 1136
+                    "endOffset": 1157
                 },
                 "from": {
-                    "file": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/values/servers.xml"
+                    "file": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\values\\servers.xml"
                 }
             }
         ]

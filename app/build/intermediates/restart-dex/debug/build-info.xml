@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
+    abi="x86"
     api-level="19"
-    density="tvdpi"
-    format="7"
-    timestamp="1462820190490037000" >
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.1"
+    timestamp="225230481740372"
+    token="-6439170667491998024"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -20,17 +23,21 @@
         duration="0" />
 
     <artifact
-        location="/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/resources-debug.ap_"
+        location="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
 
-    <build timestamp="1462819918852283000" >
+    <build
+        timestamp="222448951523509"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="1462820190490037000" >
+    <build
+        timestamp="225230481740372"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/resources-debug.ap_"
+            location="C:\Users\Andrew\Desktop\Projects\Calit2 CalPlug\WoP\WoP-AndroidTablet\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
     </build>
 

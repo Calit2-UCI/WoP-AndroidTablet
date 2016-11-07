@@ -1,82 +1,82 @@
 [
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/logo.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/logo.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/stb.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/stb.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favicon.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\favicon.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/shape.xml",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/shape.xml"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\ic_launcher.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/bg31.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/bg31.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\laptopoff.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\laptopoff.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/largelogo.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/largelogo.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg31.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\bg31.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/largelogo2.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/largelogo2.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\on.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\on.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/laptopon.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/laptopon.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\off.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\off.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/background.jpg",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/background.jpg"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stb.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\stb.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/bg2.jpg",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/bg2.jpg"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgtoggle.xml",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\bgtoggle.xml"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/favicon.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/favicon.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/icon.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/icon.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\largelogo2.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\largelogo2.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/laptopoff.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/laptopoff.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tvon.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\tvon.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/tvoff.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/tvoff.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg3.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\bg3.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/bgtoggle.xml",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/bgtoggle.xml"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tvoff.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\tvoff.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/bg3.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/bg3.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\largelogo.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\largelogo.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/off.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/off.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\shape.xml"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/shape_droptarget.xml",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/shape_droptarget.xml"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\laptopon.png",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\laptopon.png"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/on.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/on.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg2.jpg",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\bg2.jpg"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/ic_launcher.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_droptarget.xml",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\shape_droptarget.xml"
     },
     {
-        "merged": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/build/intermediates/res/merged/debug/drawable/tvon.png",
-        "source": "/Users/Zephyr/Documents/2014 Calit2 WoP/WoP-Tab-2016/app/src/main/res/drawable/tvon.png"
+        "merged": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
+        "source": "C:\\Users\\Andrew\\Desktop\\Projects\\Calit2 CalPlug\\WoP\\WoP-AndroidTablet\\app\\src\\main\\res\\drawable\\background.jpg"
     }
 ]
